@@ -16,7 +16,7 @@ You may render a custom view for a cell using the `view()` method:
 ```php
 use Filament\Tables\Columns\ViewColumn;
 
-ViewColumn::make('status')->view('filament.tables.columns.status-switcher')
+ViewColumn::make('status')->view('tables.columns.status-switcher')
 ```
 
 This assumes that you have a `resources/views/filament/tables/columns/status-switcher.blade.php` file.
